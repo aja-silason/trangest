@@ -1,0 +1,127 @@
+.sectionArticles{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 4em;
+    background-color: var(--primary-white-color);
+}
+
+
+.describeArticles{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 1em;
+}
+
+.describeArticles h3{
+    text-transform: uppercase;
+    color: var(--primary-red-color);
+    font-weight: 400;
+}
+
+.describeArticles h1{
+    color: var(--primary-black-color);
+    font-size: 16pt;
+    font-weight: 540;
+    text-transform: uppercase;
+
+}
+
+.articles{
+    display: flex;
+    gap: 2em;
+    width: 70%;
+}
+
+.recentArticle{
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    width: 60%;
+    height: 100%;
+
+}
+.recentArticle .new{
+    background-color: var(--primary-white-color);
+    border: 1px solid var(--primary-white-hover-color);
+    width: 50%; 
+    transition: 600ms;
+    cursor: pointer;
+}
+
+.recentArticle .new:hover{
+    background-color: var(--primary-white-soft-color);
+}
+.recentArticle .new img{
+    width: 100%;
+}
+
+.img p{
+    font-size: 12pt;
+    width: 80%;
+    height: 1.5em;
+    color: var(--primary-red-color);
+}
+
+.price{
+    font-size: 14pt;
+    margin: .5em .2em !important;
+}
+.describe{
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+.describe h3, 
+.describe p, 
+.describe a{
+    text-align: justify;
+    margin: 0 1em;
+}
+.describe a{
+    color: var(--primary-red-color);
+    margin-bottom: 2em;
+}
+
+.oldArticle{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    gap: .5em;
+}
+
+.oldArticle .old{
+    display: flex;
+    background-color: var(--primary-white-color);
+    border: 1px solid var(--primary-white-hover-color);
+    box-sizing: border-box;
+    transition: 600ms;
+    cursor: pointer;
+    height: 7em;
+}
+
+.oldArticle .old:hover{
+    background-color: var(--primary-white-soft-color);
+}
+
+.oldArticle div img{
+    width: 120px;
+    height: 100%;
+}
+.oldArticle hr{
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.oldDescribe{
+    display: flex;
+    flex-direction: column;
+    margin: .5em;
+    gap: .5em;
+}
+

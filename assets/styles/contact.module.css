@@ -1,0 +1,87 @@
+.sectionContact{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--primary-white-color);
+}
+
+.allSectionContact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+    width: 80%;
+}
+.allSectionContact > p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: .5em;
+}
+.allSectionContact p i img{
+    width: 20px;
+}
+
+.infoContact{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.infoContact h3{
+    text-transform: uppercase;
+    color: var(--primary-red-color);
+    font-weight: 400;
+}
+
+.infoContact h1{
+    color: var(--primary-black-color);
+    font-size: 16pt;
+    font-weight: 540;
+    text-transform: uppercase;
+
+}
+.socialMediaContact{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+.socialMediaContact a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social{
+    background-color: var(--primary-white-soft-color);
+    padding: .8em 2em;
+    color: var(--primary-red-color);
+    font-size: 10pt;
+    font-weight: 500;
+    transition: 600ms;
+    cursor: pointer;
+    border: .1px solid var(--primary-white-hover-color);
+}
+
+.social p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .2em;
+}
+.social p img{
+    width: 25px;
+}
+.social:hover{
+    background-color: var(--primary-white-hover-color);
+}
+
+.logosContact{
+    font-weight: bold;
+}

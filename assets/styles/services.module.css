@@ -1,0 +1,91 @@
+
+.services{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 4em;
+    background-color: var(--primary-white-color);
+    margin: 8em 0;
+}
+
+
+.infoServices{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 1em;
+}
+
+
+.infoServices h3{
+    text-transform: uppercase;
+    color: var(--primary-red-color);
+    font-weight: 400;
+}
+
+.infoServices h1{
+    color: var(--primary-black-color);
+    font-size: 16pt;
+    font-weight: 540;
+    text-transform: uppercase;
+
+}
+
+.typeServices{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.service img{
+    position: inherit;
+    width: 100%;
+    height: 100%;
+    border-radius: .2em;
+    transition: 200ms;
+}
+
+.cardInfo{
+    background-color: var(--primary-white-color);
+    height: 13em;
+    width: 12em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .5em;
+    border-radius: .2em;
+    border: .1em solid var(--primary-gray-color);
+    cursor: pointer;
+    transition: 600ms;
+}
+
+.cardInfo:hover{
+    background-color: var(--primary-white-soft-color);
+}
+.cardInfo h1{
+    font-size: 60pt;
+}
+
+.cardInfo h2{
+    margin-bottom: .1em;
+}
+
+.info h2{
+    font-size: 20pt;
+    font-weight: regular;
+    color: var(--primary-red-color);
+}
+.info p{
+    font-weight: lighter;
+}

@@ -1,0 +1,159 @@
+.searchForm{
+    width: 40%;
+    border: 1px solid red;
+    height: 2.5em;
+    cursor:text;
+    background-color: var(--primary-white-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchForm form{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchForm input{
+    width: 80%;
+    margin: 0;
+    border: none;
+    text-indent: .5em;
+    outline: none;
+}
+
+.searchForm input:focus{
+    border: none;
+}
+
+.searchForm button{
+    width: 19%;
+    margin: 0;
+    position: relative;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+
+
+
+/*forms Login */
+
+section.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0;
+    gap: 2em;
+}
+
+.container{
+    background-color: var(--primary-white-color);
+    width: 40%;
+    padding: 4em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+    box-shadow: var(--box-shadow);
+}
+
+.container div.input{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--primary-boxShadow-gray);
+    position: relative;
+    justify-content: center;
+}
+
+.container input ~ label{
+    font-size: 12pt;
+    position: absolute;
+    margin-left: .8em;
+    transition: transform 600ms;
+    color: var(--primary-black-color);
+}
+
+
+
+.container input:focus ~ label,
+.container input:valid ~ label{
+    font-size: 8pt;
+    left: 0;
+    transform: translateY(-30px);
+    margin: 0;
+    color: var(--primary-red-color);
+    letter-spacing: .1em;
+}
+
+.container form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.container input{
+    width: 25em;
+    height: 40px;
+    margin: 0;
+    text-indent: .5em;
+    outline: none;
+}
+
+.btn button{
+    width: 25em;
+    height: 40px;
+    border: 1px solid var(--primary-red-hover-color);
+    background-color: var(--primary-red-color);
+    color: var(--primary-white-color);
+    font-size: 12pt;
+    cursor: pointer;
+    box-shadow: var(--box-shadow);
+    transition: 100ms;
+}
+
+.btn button:hover{
+    border: 1px solid var(--primary-red-color);
+    background-color: var(--primary-red-hover-color);
+}
+
+.invalid{
+    border-color: var(--primary-red-color);
+}
+
+.semConta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    margin-top: 1em;
+}
+.semConta hr{
+    border: none;
+    border-bottom: 1px solid var(--primary-red-color);
+    width: 100%;
+    margin-bottom: 1em;
+}
+.semConta hr ~ p{
+    background-color: var(--primary-white-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1.5em;
+    position: absolute;
+    margin-top: -9px;
+}
+
+.semConta a{
+    transition: .4s;
+}
+.semConta a:hover{
+    color: var(--primary-red-color);
+}

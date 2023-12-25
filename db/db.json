@@ -1,0 +1,49 @@
+{
+    "user":[
+        {
+            "id": 1,
+            "nome": "admin",
+            "pass": "1234",
+            "email": "admin@admin.com",
+            "contacto": "9999",
+            "picture": "image.png",
+            "description": "Admin"
+        },
+        {
+            "id": 2,
+            "nome": "João Adão",
+            "pass": "1234",
+            "email": "joao@trangest.com",
+            "contacto": "944996909",
+            "picture": "image.png",
+            "description": "Funcionario feliz"
+        }
+    ],
+    "product":[
+        {
+            "id": 1,
+            "img": "",
+            "status": "",
+            "articleName": "",
+            "price": "",
+            "comission": "",
+            "description": "",
+            "contact": ""
+        }
+    ],
+    "cart":[
+        {
+            "id": 1,
+            "id_user": "",
+            "ide_product": "",
+            "img": "",
+            "status": "",
+            "articleName": "",
+            "price":"",
+            "comission": "",
+            "description": "",
+            "contact": "",
+            "qtd": ""
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+.container-profile{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding: 2em 0;
+    gap: 2em;
+}
+
+.datas{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.datas > div,
+.otherDatas > div{
+    display: flex;
+    gap: 1em;
+    background-color: var(--primary-white-color);
+    padding: 2em;
+    width: 100%;
+    color: var(--primary-black-color);
+    box-shadow: 1px 1px 10px .1px var(--primary-black-color);
+}
+
+.otherDatas > div{
+    width: 30em;
+}
+
+.data-user ~ div,
+.otherDatas > div{
+    flex-direction: column;
+}
+
+.data-user ~ div h2,
+.otherDatas > div h2{
+    font-weight: 500;
+    font-size: 14pt;
+}
+
+.data-user ~ div > div,
+.otherDatas > div > div{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid var(--primary-red-color);
+    font-size: 10pt;
+    padding: 1em;
+}
+
+.profile-picture{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile-picture .picture{
+    width: 5em;
+    border: 5px solid var(--primary-red-color);
+    align-items: center;
+    border-radius: 100px;
+    width: 120px;
+    height: 120px;
+}
+
+.picture img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+}
+
+.profile-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2em;
+}
+.user-data{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-data .user h2{
+    font-size: 16pt;
+    font-weight: 500;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    gap: .3em;
+}
+
+button{
+    border: 1px solid var(--primary-red-color);
+    background-color: var(--primary-red-color);
+    padding: .5em;
+    font-size: 10pt;
+    cursor: pointer;
+    transition: .1s;
+    color: var(--primary-white-color);
+}
+
+button:hover{
+    border: 1px solid var(--primary-red-color);
+    background-color: var(--primary-red-hover-color);
+}
+.user-contact{
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+.user-contact span{
+    color: var(--primary-red-color);
+    font-weight: 600;
+}

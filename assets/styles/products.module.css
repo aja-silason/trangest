@@ -1,0 +1,153 @@
+body{
+    background-color: var(--primary-gray-color);
+}
+
+.container-products{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    margin: 2em 0;
+}
+
+.category{
+    display: flex;
+    justify-content: start;
+    width: 90%;
+    gap: 4em;
+    background-color: var(--primary-white-color);
+    border-radius: 5px;
+    box-shadow: 1px 1px .5px 1px var(--primary-boxShadow-gray);
+    padding: 1em;
+}
+.category nav{
+    width: 100%;
+}
+.category ul a:hover{
+    color: var(--primary-red-color);
+}
+
+.category .visible{
+    display: none;
+}
+
+.category ul{
+    display: flex;
+    gap: 3em;
+}
+.itemCategory{
+    margin: 10px 0;
+    transition: 500ms;
+}
+.itemCategory ul{
+    margin: 1.5em 0 0 0;
+}
+hr{
+    border: none;
+    border-top: 1px solid var(--primary-red-color);
+}
+
+.rastrosDaPesquisa{
+    padding: 1em;
+}
+span{
+    font-weight: bold;
+}
+.rastrosDaPesquisa{
+    display: flex;
+    gap: .5em;
+    justify-content: start;
+    width: 90%;
+}
+
+.prod{
+    display: flex;
+    gap: 2em;
+    justify-content: start;
+    width: 90%;
+
+}
+
+.descriptionaside h3{
+    font-size: 11pt;
+}
+
+
+.descriptionaside nav .itemDesc{
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    padding: 1em;
+}
+
+.itemDesc h3{
+    font-size: 15pt;
+}
+.descriptionaside nav ul{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+
+}
+
+.descriptionaside nav ul li{
+    font-size: 10pt;
+}
+
+.descriptionaside nav ul li a{
+    color: var(--primary-black-color);
+}
+
+.products{
+    padding: 1em;
+    width: 100%;
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+    background-color: var(--primary-white-color);
+    width: 200px;
+    padding: .5em;
+}
+.card .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card img{
+    width: 100%;
+    align-items: center;
+    cursor: pointer;
+}
+.card .sendForm{
+    background-color: var(--primary-red-color);
+    color: var(--primary-white-color);
+    padding: .1em;
+    border-radius: 2px;
+    font-size: 9pt;
+    font-weight: 600;
+}
+
+.card .priceDetails h3{
+    font-size: 14pt;
+    color: var(--primary-black-color);
+}
+
+.card span{
+    color: var(--primary-red-hover-color);
+    font-size: 10pt;
+}
+
+.card .carDetails .description{
+    font-size: 10pt;
+    margin: .5em 0;
+    color: var(--primary-black-gray);
+}

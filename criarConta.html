@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TranGest, venda de automoveis">
+    <title>TranGest</title>
+    <link rel="shortcut icon" href="./assets/images/inner_system/imagotipo1.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/styles/general.style.module.css">
+    <link rel="stylesheet" href="./assets/styles/header.module.css">
+    <link rel="stylesheet" href="./assets/styles/services.module.css">
+    <link rel="stylesheet" href="./assets/styles/articles.module.css">
+    <link rel="stylesheet" href="./assets/styles/contact.module.css">
+    <link rel="stylesheet" href="./assets/styles/forms.module.css">
+    <link rel="stylesheet" href="./assets/styles/otherSection.module.css">
+    <link rel="stylesheet" href="./assets/styles/products.module.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="menuComplete">
+            <div class="dataUser">
+                <a href="./login.html">
+                    <div class="profileUser">
+                        <p>Anania Jaime Augusto</p>
+                        <img src="./assets/icons/icons-user.png" alt="User profile image">
+                    </div>
+                </a>
+                <a href="./login.html">
+                    <div class="cart">
+                        <img src="./assets/icons/icons-cart.png" alt="Carrinho">
+                    </div>
+                </a>
+            </div>
+    
+            <nav class="menu">
+                <div class="logo">
+                    <img src="./assets/images/inner_system/imagotipo1.png" alt="LogoTranGest">
+                </div>
+                <div class="searchForm">
+                    <form action="#" method="get">
+                        <input type="search" name="pesquisar" id="pesquisar" placeholder="Pesquise aqui pelo artigo">
+                        <button type="submit">Pesquisar</button>
+                    </form>
+                </div>
+                <div class="list-menu">
+                    <ul>
+                        <a href="./index.html"><li>Home</li></a>
+                        <a href="./product.html"><li>Produtos</li></a>
+                        <a href="./service.html"><li>Serviços</li></a>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <!--Menu flutuante fixo-->
+        <div class="menuFixo menuComplete2">
+            <div class="dataUser">
+                <a href="./login.html">
+                    <div class="profileUser">
+                        <p>Anania Jaime Augusto</p>
+                        <img src="./assets/icons/icons-user.png" alt="User profile image">
+                    </div>
+                </a>
+                <a href="./login.html">
+                    <div class="cart">
+                        <img src="./assets/icons/icons-cart.png" alt="Carrinho">
+                    </div>
+                </a>
+            </div>
+    
+            <nav class="menu">
+                <div class="logo">
+                    <img src="./assets/images/inner_system/imagotipo1.png" alt="LogoTranGest">
+                </div>
+
+                <div class="searchForm">
+                    <form action="#" method="get">
+                        <input type="search" name="pesquisar" id="pesquisar" placeholder="Pesquise aqui pelo artigo">
+                        <button type="submit">Pesquisar</button>
+                    </form>
+                </div>
+
+                <div class="list-menu">
+                    <ul>
+                        <a href="./index.html"><li>Home</li></a>
+                        <a href="./product.html"><li>Produtos</li></a>
+                        <a href="./service.html"><li>Serviços</li></a>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <!--Menu flutuante fixo-->
+
+
+
+    </header>
+
+
+    <section class="form">
+        <div class="container">
+
+            <h2>Crie a sua conta</h2>
+            <form action="#" method="post">
+                <div class="input">
+                    <input type="text" name="user" id="user" required>
+                    <label for="#">Nome de usuario</label>
+                </div>
+
+                <div class="input">
+                    <input type="email" name="email" id="email" required>
+                    <label for="#">E-mail</label>
+                </div>
+
+                <div class="input">
+                    <input type="tel" name="telefone" id="telefone" required>
+                    <label for="#">Telefone</label>
+                </div>
+                
+                <div class="input">
+                    <input type="password" name="password" id="password" required>
+                    <label for="#">Password</label>
+                </div>
+
+                <div class="btn">
+                    <button type="submit">Criar Conta</button>
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <p>&copy; Copyright - Tran<span>Gest</span> &VerticalLine; Todos os direitos reservados</p>
+    </footer>
+
+    <script src="./assets/js/controller/acesso_login.js"></script>
+    <script src="./assets/js/general.script.js"></script>
+
+</body>
+</html>
