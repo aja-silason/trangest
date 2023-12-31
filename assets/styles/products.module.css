@@ -151,3 +151,45 @@ span{
     margin: .5em 0;
     color: var(--primary-black-gray);
 }
+
+@media all and (max-width:720px){
+    .category nav ul{
+        gap: .5em;
+    }
+    .category nav ul li{
+        font-size: 12pt;
+    }
+    .rastrosDaPesquisa p{
+        font-size: 10pt;
+    }
+    .prod{
+        gap: .1em;
+    }
+
+    aside h3{
+        font-size: 11pt;
+    }
+    aside li{
+        font-size: 10pt;
+    }
+}
+
+@media all and (max-width: 890px){
+    
+    .category nav ul li{
+        font-size: 12pt;
+    }
+    .rastrosDaPesquisa p{
+        font-size: 10pt;
+    }
+    .prod{
+        gap: .1em;
+    }
+
+    aside h3{
+        font-size: 12pt;
+    }
+    aside li{
+        font-size: 10pt;
+    }
+}

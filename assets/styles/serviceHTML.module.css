@@ -1,0 +1,110 @@
+.banner{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    gap: 2em;
+    color: var(--primary-black-color);
+}
+.banner > div{
+    width: 50%;
+}
+.banner > .text{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    text-align: justify;
+}
+.banner > div > img{
+    width: 100%;
+    height: 80%;
+}
+
+.text h1{
+    color: var(--primary-red-color);
+    font-size: 20pt;
+}
+
+.text .list{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.list h3{
+    display: flex;
+    gap: 1em;
+    justify-content: start;
+    align-items: center;
+    font-size: 14pt;
+}
+
+.list h3 > span{
+    color: var(--primary-red-color);
+    width: 15px;
+    height: 15px;
+    background-color: var(--primary-red-color);
+    border-radius: 50px;
+}
+
+@media all and (max-width:720px){
+    .infoServices{
+        width: 70%;
+        text-align: justify;
+    }
+    .banner{
+        flex-direction: column;
+        gap: 0;
+    }
+    .banner div{
+        width: 100%;
+    }
+    .banner div img{
+        width: 100%;
+    }
+    .banner .text h1{
+        font-size: 12pt;
+    }
+    .banner .text{
+        gap: .2em;
+    }
+    .banner .text .list{
+        gap: .2em;
+    }
+    .list h3{
+        font-size: 10pt;
+    }
+    .list h3 span{
+        width: 10px;
+        height: 10px;
+    }
+}
+
+@media all and (max-width:890px){
+    .infoServices{
+        width: 70%;
+    }
+    .banner{
+        gap: .5em;
+    }
+    .banner div{
+        width: 100%;
+    }
+    .banner div img{
+        width: 100%;
+    }
+    .banner .text h1{
+        font-size: 12pt;
+    }
+    .banner .text{
+        gap: .2em;
+    }
+    .banner .text .list{
+        gap: .2em;
+    }
+    .list h3{
+        font-size: 10pt;
+    }
+    .list h3 span{
+        width: 10px;
+        height: 10px;
+    }
+}

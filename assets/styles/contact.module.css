@@ -85,3 +85,39 @@
 .logosContact{
     font-weight: bold;
 }
+
+@media all and (max-width:720px){
+    .sectionContact h1{
+        font-size: 12pt;
+    }
+    .sectionContact{
+        height: 100%;
+    }
+    .socialMediaContact{
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 1em;
+    }
+    .sectionContact a {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 890px){
+    .sectionContact h1{
+        font-size: 12pt;
+    }
+    .sectionContact{
+        height: 100%;
+    }
+    .socialMediaContact{
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 1em;
+    }
+    .sectionContact a {
+        width: 100%;
+    }
+}

@@ -1,26 +1,26 @@
-// função login
+// // função login
 
-var formLogin = document.querySelector("#formLogin");
+// var formLogin = document.querySelector("#formLogin");
 
 
 
-formLogin.addEventListener('submit', e =>{
-    e.preventDefault();
+// formLogin.addEventListener('submit', e =>{
+//     e.preventDefault();
 
-    const user = document.querySelector('#user').value;
-    const pass = document.querySelector('#password').value;
+//     const user = document.querySelector('#user').value;
+//     const pass = document.querySelector('#password').value;
     
-    usuario = 'admin';
-    senha = 'admin';
+//     usuario = 'admin';
+//     senha = 'admin';
 
-    if((user == usuario) && (pass == senha)){
+//     if((user == usuario) && (pass == senha)){
           
-        window.location = './profile.html';
+//         window.location = './profile.html';
 
-    } else{
-        console.log("Tente novamente");
-    }
-});
+//     } else{
+//         console.log("Tente novamente");
+//     }
+// });
 
 
 

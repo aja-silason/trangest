@@ -49,3 +49,14 @@ body{
 .footer span{
     color: var(--primary-red-color);
 }
+
+@media all and (max-width:720px){
+    .footer{
+        text-align: center;
+    }
+}
+@media all and (max-width: 890px){
+    .footer{
+        text-align: center;
+    }
+}

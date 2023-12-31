@@ -47,9 +47,11 @@ function criarDiv(el, generalContainer){
   h2.innerText = el.articleName; 
 
   a.innerText = 'Saber mais..'
-  a.target = '_blank'
-  a.href = `?${el.articleName}_${el.id}`.replace(' ','_').toLocaleLowerCase();
+  // a.target = '_blank'
+  // a.href = `?${el.articleName}_${el.id}`.replace(' ','_').toLocaleLowerCase();
+  a.href = './product.html';
 
+  
 
 
   divImg.appendChild(img);

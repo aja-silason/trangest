@@ -125,3 +125,34 @@
     gap: .5em;
 }
 
+@media all and (max-width:720px){
+    .articles{
+        flex-direction: column;
+    }
+    .articles p{
+        text-align: justify;
+    }
+    .recentArticle{
+        width: 100%;
+        flex-wrap: auto;
+    }
+    .oldArticle{
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 890px){
+    .articles{
+        flex-direction: column;
+    }
+    .articles p{
+        text-align: justify;
+    }
+    .recentArticle{
+        width: 100%;
+        flex-wrap: auto;
+    }
+    .oldArticle{
+        width: 100%;
+    }
+}

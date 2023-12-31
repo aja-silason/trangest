@@ -89,3 +89,10 @@
 .info p{
     font-weight: lighter;
 }
+
+@media all and (max-width: 890px){
+    .typeServices{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }   
+}

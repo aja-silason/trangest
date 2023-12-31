@@ -167,3 +167,76 @@ li{
     height: 10vh;
 }
 
+
+
+@media all and (max-width:720px){
+    .profileUser p{
+        font-size: 10pt;
+    }
+    .imageCarrossel{
+        width: 100%;
+    }
+    .imageCarrossel img{
+        width: 100%;
+    }
+    .itemCarrossel{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .itemCarrossel div{
+        width: 90%;
+    }
+    .bannerCarrossel{
+        padding: 0;
+        justify-content: start;
+        align-items: start;
+    }
+    .bannerCarrossel button{
+        display: none;
+    }
+    .typeServices{
+        flex-direction: column;
+    }
+    .conteudoCarrossel{
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media all and (max-width:890px){
+    .profileUser p{
+        font-size: 10pt;
+    }
+    .imageCarrossel{
+        width: 100%;
+    }
+    .imageCarrossel img{
+        width: 70%;
+    }
+    .itemCarrossel{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .itemCarrossel div{
+        width: 90%;
+    }
+    .bannerCarrossel{
+        padding: 0;
+        justify-content: start;
+        align-items: start;
+    }
+    .bannerCarrossel button{
+        display: none;
+    }
+    .typeServices{
+        flex-direction: column;
+    }
+    .conteudoCarrossel{
+        width: 100%;
+        margin: 0;
+    }
+}

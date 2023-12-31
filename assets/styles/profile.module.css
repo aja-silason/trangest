@@ -58,8 +58,8 @@
     border: 5px solid var(--primary-red-color);
     align-items: center;
     border-radius: 100px;
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
 }
 
 .picture img{
@@ -111,4 +111,54 @@ button:hover{
 .user-contact span{
     color: var(--primary-red-color);
     font-weight: 600;
+}
+
+@media all and (max-width: 720px){
+    .container-profile{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        border: 1px solid;
+        align-items: center;
+    }
+    .datas{
+        justify-content: center;
+        align-items: center;
+    }
+    .datas > div,
+    .otherDatas > div{
+    width: 100%;
+    font-size: 10pt;
+    }
+
+    .datas > div{
+        width: 90%;
+    }
+
+    
+}
+
+@media all and (max-width: 890px){
+    .container-profile{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        border: 1px solid;
+        align-items: center;
+    }
+    .datas{
+        justify-content: center;
+        align-items: center;
+    }
+    .datas > div,
+    .otherDatas > div{
+    width: 100%;
+    font-size: 10pt;
+    }
+
+    .datas > div{
+        width: 90%;
+    }
+
+    
 }

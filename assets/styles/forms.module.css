@@ -157,3 +157,78 @@ section.form{
 .semConta a:hover{
     color: var(--primary-red-color);
 }
+
+
+
+
+@media all and (max-width:720px){
+    .searchForm{
+        display: none;
+    }
+    .container{
+        width: 90%;
+    }
+    .input{
+        width: 60%;
+    }
+    .container div{
+        width: 100%;
+    }
+    .container input{
+        width: 100%;
+    }
+    .container .btn{
+        width: 60%;
+    }
+    .container button{
+        width: 100%;
+    }
+    .container label{
+        font-size: 10pt;
+    }
+    .container input ~ label{
+        font-size: 10pt;
+    }
+    .container input:focus ~ label,
+    .container input:valid ~ label{
+        font-size: 6pt;
+    }
+
+}
+
+@media all and (max-width: 890px){
+    .searchForm{
+        font-size: 10pt;
+    }
+    .container{
+        width: 90%;
+    }
+    .input{
+        width: 60%;
+    }
+    .container div{
+        width: 100%;
+    }
+    .container input{
+        width: 100%;
+    }
+    .container .btn{
+        width: 60%;
+    }
+    .container button{
+        width: 100%;
+    }
+    .container label{
+        font-size: 10pt;
+    }
+    .container input ~ label{
+        font-size: 10pt;
+    }
+    .container input:focus ~ label,
+    .container input:valid ~ label{
+        font-size: 6pt;
+    }
+
+
+
+}
